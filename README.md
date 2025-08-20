@@ -1,5 +1,6 @@
 # Personal-finance-tracker-
 This is a simple personal finance tracker application built with Python. It allows users to track their income and expenses, manage budgets, receive alerts, view transactions, and generate detailed financial reports.
+
 Features
 •	Add Income and Expense Transactions: Easily add and categorize your income and expenses.
 •	View Transactions: View a detailed list of all your transactions, including dates, categories, and descriptions.
@@ -7,6 +8,7 @@ Features
 •	Alerts and Notifications: Receive real-time alerts via AWS SNS when your spending exceeds or approaches your budget limits.
 •	Financial Reports: Generate comprehensive financial reports and export them to CSV for further analysis.
 •	SQLite Database: Securely store all financial data using SQLite.
+
 Installation
 1.	Fork the Repository:
 Click the Fork button at the top right corner to create a copy of the repository in your GitHub account.
@@ -17,10 +19,12 @@ git clone https://github.com/your-username/personal-finance-tracker.git
 cd personal-finance-tracker
 4.	Install the required dependencies:
 pip install -r requirements.txt
+
 Usage
 Run the main script to start the application:
 python main.py
 Follow the on-screen prompts to add transactions, view transactions, and generate reports.
+
 Project Structure
 •	main.py: The main script that runs the application.
 •	database.py: Handles database operations.
