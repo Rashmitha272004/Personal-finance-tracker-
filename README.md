@@ -27,11 +27,18 @@ python main.py
 Follow the on-screen prompts to add transactions, view transactions, and generate reports.
 
 Project Structure
+
 1•	main.py: The main script that runs the application.
+
 2•	database.py: Handles database operations.
+
 3•	transaction.py: Defines the Transaction class.
+
 4•	report.py: Contains functions for generating financial reports.
+
 5•	config.py: Stores configuration settings.
+
 6•	requirements.txt: Lists the project dependencies.
+
 7•	README.md: This file, containing project information and instructions.
 
